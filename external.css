@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+#canvas {
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background {
+    width: 120vmin;
+    height: 50vmin;
+    background: yellow;
+    position: relative;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+#bumper {
+    position: relative;
+    background-color: black;
+    opacity: 80%;
+    width: 120vmin;
+    height: 10vmin;
+    z-index: 1;
+}
+#wheel2 {
+    position: absolute;
+    z-index: 3;
+    width: 150px;
+    height: 125px;
+    border-radius: 50%;
+    background: white;
+    bottom: -5em;
+    right: 1em;
+}
+
+
+#wheel {
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    height: 125px;
+    border-radius: 50%;
+    background: white;
+    bottom: -5em;
+}
+
